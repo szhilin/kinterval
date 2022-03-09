@@ -1,5 +1,5 @@
-kinterval -- Octave Package for Kaucher Interval Arithmetic
-===========================================================
+Octave Package for Kaucher Interval Arithmetic
+===============================================
 
  Kaucher interval arithmetic extends and completes the classical interval arithmetic 
  by adding improper intervals [a,b] a >= b to the set of proper intervals [a,b] a <= b. 
