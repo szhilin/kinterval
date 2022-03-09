@@ -1,0 +1,18 @@
+                      GNU Octave Package kinterval
+               Summary of important user-visible changes
+
+Version 0.0.2 2022-03-10
+========================
+
+   * Added function subdiff() for formal solution of the interval linear system 
+     A * x = b in Kaucher interval arithmetic by subdifferential Newton method 
+     (S.P. Shary, 1996).
+
+   * Added short named versions of Kaucher interval constructor ki() and 
+     kintval().
+
+Version 0.0.1 2020-10-31
+========================
+
+   * Initial release version, which contains basic functions and
+     operations for Kaucher interval arithmetic.

@@ -1,0 +1,20 @@
+Name: kinterval
+Version: 0.0.2
+Date: 2022-03-10
+Author: Sergei I. Zhilin <szhilin@gmail.com>
+Maintainer: Sergei I. Zhilin <szhilin@gmail.com>.
+Title: Kaucher Interval Arithmetic
+Description: Kaucher Interval Arithmetic extends and completes the classical 
+ interval arithmetic by adding improper intervals [a,b] a >= b to the set of 
+ proper intervals [a,b] a <= b. (Kaucher C., 1980: Interval analysis in the 
+ extended interval space // Computing. Supplementum, 2, pp 33-49).
+
+ The source code of kinterval package is based on Octave interval package 
+ (by Oliver Heimlich et al.) implementing the classical interval arithmetic. 
+ The signatures of kinterval functions are compatible with the ones for 
+ Octave interval package when possible. 
+
+ CAUTION. Unlike interval package kinterval does not implement rigorous 
+ rounding policy in its early versions.
+License: GPLv3+
+Depends: Octave (>= 4.4.2)

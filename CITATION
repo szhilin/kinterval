@@ -1,0 +1,12 @@
+The kinterval package is a collection of functions for Kaucher interval
+arithmetic. To cite this particular version of the kinterval package
+in publications use:
+
+     @software{octave-kinterval,
+       author  = {Sergei I. Zhilin},
+       title   = {GNU Octave Kaucher Interval Arithmetic Package},
+       url     = {https://github.com/szhilin/kinterval/},
+       version = {0.0.2},
+       date    = {2022-03-10},
+     }
+
