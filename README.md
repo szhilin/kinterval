@@ -8,7 +8,7 @@ Octave Package for Kaucher Interval Arithmetic
 
  The code of the kinterval package is based on [GNU Octave interval package](https://octave.sourceforge.io/interval/) implementing 
  the classical interval arithmetic (by Oliver Heimlich et al.). The signatures of kinterval 
- functions are compatible with the ones from Octave interval package when possible.
+ functions are compatible with ones from Octave interval package when possible.
 
  CAUTION. Unlike interval package kinterval does not implement rigorous
  rounding policy (at least in its early versions).
