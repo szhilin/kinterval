@@ -3,7 +3,7 @@ Octave Package for Kaucher Interval Arithmetic
 
  Kaucher interval arithmetic extends and completes the classical interval arithmetic 
  by adding improper intervals [a,b] a >= b to the set of proper intervals [a,b] a <= b. 
- (Kaucher C., 1980: Interval analysis in the extended interval space // Computing. 
+ (Kaucher E., 1980: Interval analysis in the extended interval space // Computing. 
  Supplementum, 2, 33-49).
 
  The code of the kinterval package is based on [GNU Octave interval package](https://octave.sourceforge.io/interval/) implementing 
