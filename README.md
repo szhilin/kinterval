@@ -19,7 +19,7 @@ Latest release is 0.0.2. You can see the full list of changes [here](NEWS)
 
 How to install
 --------------
-No compilation or explicit installation is needed. Just specify the search path for kinterval package and its subfolders in Ocatve command line using `addpath(genpath(KINTERVAL_ROOT)` where `KINTERVAL_ROOT` is string with the path to root folder of kinterval. You may also call `savepath` after that to make search path permanent.
+No compilation or explicit installation is needed. Just specify the search path for kinterval package and its subfolders in Ocatve command line using `addpath(genpath(KINTERVAL_ROOT)` where `KINTERVAL_ROOT` is a string with the path to root folder of kinterval. You may also call `savepath` after that to make search path permanent.
 
 How to cite
 -----------
