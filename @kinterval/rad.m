@@ -47,9 +47,13 @@ function [out1, out2] = rad (x)
   ## The midpoint is rounded to nearest and the radius must cover both boundaries
   #r1 = mpfr_function_d ('minus', +inf, m, x.inf);
   #r2 = mpfr_function_d ('minus', +inf, x.sup, m);
-  r1 = abs(m - x.inf);
-  r2 = abs(x.sup - m);
-  r = max (r1, r2);
+  r1 = m - x.inf;
+  r2 = x.sup - m;
+  if abs(r1) > abs(r2)
+     r = r1;
+  else
+     r = r2;
+  end  
 
   #r (isempty (x)) = nan ();
 
