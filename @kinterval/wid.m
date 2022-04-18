@@ -43,7 +43,7 @@ function result = wid (x)
   #result = mpfr_function_d ('minus', +inf, x.sup, x.inf);
   #result(x.inf > x.sup) = nan ();
 
-  result = abs(x.sup - x.inf);
+  result = x.sup - x.inf;
 
 endfunction
 
