@@ -57,5 +57,5 @@ function result = in(x, y)
       if ~all(size(x.inf) == size(y.inf))
         error("wrong dimensions");
       endif
-      relust = x.inf >= y.inf & x.sup <= y.sup;
+      result = x.inf >= y.inf & x.sup <= y.sup;
 endfunction
