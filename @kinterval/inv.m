@@ -41,6 +41,6 @@ function result = inv(x)
   if iszeroin(pro(x))
     error ('wrong division, pro(x) contains zero');
   else
-    result = kinterval(1/x.sup, 1/x.inf);
+    result = kinterval(1/x.inf, 1/x.sup);
   endif
 endfunction
