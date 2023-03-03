@@ -15,7 +15,7 @@ Octave Package for Kaucher Interval Arithmetic
 
 What is new
 -----------
-Latest release is 0.0.2. You can see the full list of changes [here](NEWS)
+Latest release is 0.0.4. You can see the full list of changes [here](NEWS)
 
 How to install
 --------------
