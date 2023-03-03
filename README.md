@@ -29,8 +29,8 @@ To cite this particular version of the kinterval package in publications use:
        author  = {Sergei I. Zhilin},
        title   = {GNU Octave Package for Kaucher Interval Arithmetic},
        url     = {https://github.com/szhilin/kinterval/},
-       version = {0.0.2},
-       date    = {2022-03-10},
+       version = {0.0.4},
+       date    = {2023-03-03},
      }
 
 License
